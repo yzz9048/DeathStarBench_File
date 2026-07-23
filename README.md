@@ -4,7 +4,7 @@ python3 scripts/init.py --compose（初始化脚本，一定要加--compose
 
 让jaeger正常工作  (Changing the imageVersion to 1.62.0)
 
-nginx
+#nginx
 
 command:
 
@@ -33,8 +33,8 @@ command:
       
       cp /DeathStarBench/keys/* /keys/
 
-media-frontend
+# media-frontend
 
-# the same operation for git as nginx
+## the same operation for git as nginx
 
  cp -r /DeathStarBench/lua-scripts/* /lua-scripts/
